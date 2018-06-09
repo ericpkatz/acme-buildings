@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --watch test.js"
+    "test": "./node_modules/mocha/bin/mocha test.js --exit",
+    "test:dev": "./node_modules/mocha/bin/mocha test.js --watch"
   },
   "keywords": [],
   "author": "",
